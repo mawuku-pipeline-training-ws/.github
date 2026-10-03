@@ -13,10 +13,10 @@ This organization hosts the sample repositories for a **CloudBees CI / Jenkins P
 
 | Repository | Purpose |
 | --- | --- |
-| [`shared-library`](https://github.com/pipeline-training-ws/shared-library) | Jenkins Shared Library: reusable global steps (`buildMaven`, `newSemanticVersion`, `jfrogUploadArtifact`, `jiraCreateIssue`, …), the `pipelineTemplateHelloWorld` pipeline template, and Kubernetes pod templates. The foundation every other repo builds on. |
-| [`template-catalog`](https://github.com/pipeline-training-ws/template-catalog) | A CloudBees CI **Pipeline Template Catalog** (`catalog.yaml` + `templates/`). Each template is a thin Jenkinsfile that loads `shared-library` and delegates the real logic to it. |
-| [`sample-app-helloWorld`](https://github.com/pipeline-training-ws/sample-app-helloWorld) | A minimal "application" repo showing what a team actually commits: a `Jenkinsfile` that loads the Shared Library, and a `ci-config.yaml` marker file supplying its own parameters. |
-| [`pipeline-samples`](https://github.com/pipeline-training-ws/pipeline-samples) | Focused, standalone pipeline recipes: checkpoints/restart-from-stage, cross-team `publishEvent`/`eventTrigger`, parallel Kubernetes agent patterns, and JFrog/Jira integration walkthroughs. Also includes the Scripted-vs-Declarative comparison and recommendation guide. |
+| [`shared-library`](https://github.com/mawuku-pipeline-training-ws/shared-library) | Jenkins Shared Library: reusable global steps (`buildMaven`, `newSemanticVersion`, `jfrogUploadArtifact`, `jiraCreateIssue`, …), the `pipelineTemplateHelloWorld` pipeline template, and Kubernetes pod templates. The foundation every other repo builds on. |
+| [`template-catalog`](https://github.com/mawuku-pipeline-training-ws/template-catalog) | A CloudBees CI **Pipeline Template Catalog** (`catalog.yaml` + `templates/`). Each template is a thin Jenkinsfile that loads `shared-library` and delegates the real logic to it. |
+| [`sample-app-helloWorld`](https://github.com/mawuku-pipeline-training-ws/sample-app-helloWorld) | A minimal "application" repo showing what a team actually commits: a `Jenkinsfile` that loads the Shared Library, and a `ci-config.yaml` marker file supplying its own parameters. |
+| [`pipeline-samples`](https://github.com/mawuku-pipeline-training-ws/pipeline-samples) | Focused, standalone pipeline recipes: checkpoints/restart-from-stage, cross-team `publishEvent`/`eventTrigger`, parallel Kubernetes agent patterns, and JFrog/Jira integration walkthroughs. Also includes the Scripted-vs-Declarative comparison and recommendation guide. |
 
 ## High-Level Templating Approach
 
